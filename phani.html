@@ -1,10 +1,57 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <title>charani</title>
-    </head>
-    <body>
-        <p>wel come to charani</p>
-        
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>charani</title>
+    <style>
+        div {
+            color:blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Employee Registration Form</h2>
+
+        <form>
+            <div style=" background-color: black;">
+                <label>Employee Name</label>
+                <input type="text" placeholder="Enter full name" required style="color: blueviolet;">
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter email" required style="color: aquamarine;">
+
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter mobile number" required style="color: brown;">
+
+                <label>Department</label>
+                <select>
+                    <option>Select Department</option>
+                    <option>HR</option>
+                    <option>IT</option>
+                    <option>Finance</option>
+                    <option>Marketing</option>
+                </select><br><br>
+
+                <label>Designation</label>
+                <input type="text" placeholder="Enter designation">
+
+                <label>Date of Joining</label>
+                <input type="date"><br><br>
+
+                <label>Gender</label>
+                <div class="radio-group">
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <br><br>
+                </div>
+                <label>Address</label>
+                <textarea placeholder="Enter address"></textarea>
+
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+</body>
+<html>
