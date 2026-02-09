@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr= [1,2,3,4,5];
+         console.log(arr.length);
+         console.log(typeof arr);
+
+         //push     - adding elements to the end of the list
+         var arr = [1,2,3,4,5];
+         console.log(arr);
+         arr.push(6,7);
+         console.log(arr);
+
+
+        //  unshit   - adding elements to the begining of the list
+         var arr = [1,2,3,4,5];
+         console.log(arr);
+         arr.unshift(0,0.5);
+         console.log(arr);
+         
+        // pop - removing an element from the end of list
+
+         var arr = [1,2,3,4,5];
+         console.log(arr);
+         arr.pop();
+         console.log(arr);
+
+         // shift  - removing an element from the begining of the list
+         var arr = [1,2,3,4,5];
+         console.log(arr); 
+         arr.shift();
+         console.log(arr);
+
+
+         // update - updating the value in array
+         var arr = [1,2,3,4,5];
+         console.log(arr);
+         arr[arr.indexOf(5)] = 10;
+         arr[arr.indexOf(4)]= 12;
+         arr[arr.indexOf(1)] = 4;
+         console.log(arr);
+
+         // delete
+         var arr=[1,2,3,4,5];
+         console.log(arr);
+         delete arr[arr.indexOf(4)];
+         delete arr[arr.indexOf(2)]; 
+         arr[arr.indexOf(1)]= 10;
+         console.log(arr);
+    </script>
+</body>
+</html>
